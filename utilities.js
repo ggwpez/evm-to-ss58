@@ -7,8 +7,8 @@ let s2h = {
 	"hex": document.getElementById("hex-s2h")
 };
 
-s2h.string.addEventListener("input", string2hex);
-s2h.hex.addEventListener("input", hex2string);
+//s2h.string.addEventListener("input", string2hex);
+//s2h.hex.addEventListener("input", hex2string);
 
 function string2hex() {
 	try {
@@ -34,8 +34,8 @@ let b2h = {
 	"hex": document.getElementById("hex-b2h")
 };
 
-b2h.balance.addEventListener("input", bn2hex);
-b2h.hex.addEventListener("input", hex2bn);
+//b2h.balance.addEventListener("input", bn2hex);
+//b2h.hex.addEventListener("input", hex2bn);
 
 function bn2hex() {
 	try {
@@ -61,8 +61,8 @@ let a2h = {
 	"hex": document.getElementById("hex-a2h")
 };
 
-a2h.account.addEventListener("input", account2hex);
-a2h.hex.addEventListener("input", hex2account);
+//a2h.account.addEventListener("input", account2hex);
+//a2h.hex.addEventListener("input", hex2account);
 
 function account2hex() {
 	try {
@@ -89,8 +89,8 @@ let blake2 = {
 	"hash": document.getElementById("hash-blake2")
 };
 
-blake2.input.addEventListener("input", blake2string);
-blake2.bits.addEventListener("input", blake2string);
+//blake2.input.addEventListener("input", blake2string);
+//blake2.bits.addEventListener("input", blake2string);
 
 function blake2string() {
 	try {
@@ -108,8 +108,8 @@ let blake2concat = {
 	"hash": document.getElementById("hash-blake2-concat")
 };
 
-blake2concat.input.addEventListener("input", blake2ConcatString);
-blake2concat.bits.addEventListener("input", blake2ConcatString);
+//blake2concat.input.addEventListener("input", blake2ConcatString);
+//blake2concat.bits.addEventListener("input", blake2ConcatString);
 
 function blake2ConcatString() {
 	try {
@@ -133,8 +133,8 @@ let xxhash = {
 	"hash": document.getElementById("hash-xxhash")
 };
 
-xxhash.input.addEventListener("input", xxhashString);
-xxhash.bits.addEventListener("input", xxhashString);
+//xxhash.input.addEventListener("input", xxhashString);
+//xxhash.bits.addEventListener("input", xxhashString);
 
 function xxhashString() {
 	try {
@@ -152,8 +152,8 @@ let xxhashconcat = {
 	"hash": document.getElementById("hash-xxhash-concat")
 };
 
-xxhashconcat.input.addEventListener("input", xxhashConcatString);
-xxhashconcat.bits.addEventListener("input", xxhashConcatString);
+//xxhashconcat.input.addEventListener("input", xxhashConcatString);
+//xxhashconcat.bits.addEventListener("input", xxhashConcatString);
 
 function xxhashConcatString() {
 	try {
@@ -176,7 +176,7 @@ let s2a = {
 	"seed": document.getElementById("seed-s2a")
 };
 
-s2a.seed.addEventListener("input", seed2address);
+//s2a.seed.addEventListener("input", seed2address);
 
 function seed2address() {
 	try {
@@ -196,8 +196,8 @@ let cap = {
 	"result": document.getElementById("result-cap")
 };
 
-cap.prefix.addEventListener("input", changeAddressPrefix);
-cap.address.addEventListener("input", changeAddressPrefix);
+//cap.prefix.addEventListener("input", changeAddressPrefix);
+//cap.address.addEventListener("input", changeAddressPrefix);
 
 function changeAddressPrefix() {
 	try {
@@ -221,8 +221,8 @@ let modid = {
 	"address": document.getElementById("address-modid")
 };
 
-modid.moduleId.addEventListener("input", moduleId2Address);
-modid.address.addEventListener("input", moduleId2Address);
+//modid.moduleId.addEventListener("input", moduleId2Address);
+//modid.address.addEventListener("input", moduleId2Address);
 
 function moduleId2Address() {
 	try {
@@ -246,9 +246,9 @@ let paraid = {
 };
 let paraType = document.getElementById("type-paraid");
 
-paraid.paraId.addEventListener("input", paraId2Address);
-paraid.address.addEventListener("input", paraId2Address);
-paraType.addEventListener("input", paraId2Address);
+//paraid.paraId.addEventListener("input", paraId2Address);
+//paraid.address.addEventListener("input", paraId2Address);
+//paraType.addEventListener("input", paraId2Address);
 
 function paraId2Address() {
 	try {
@@ -276,8 +276,8 @@ let subid = {
 	"subid": document.getElementById("subid-subid")
 };
 
-subid.address.addEventListener("input", subAccountId);
-subid.index.addEventListener("input", subAccountId);
+//subid.address.addEventListener("input", subAccountId);
+//subid.index.addEventListener("input", subAccountId);
 
 function subAccountId() {
 	try {
@@ -375,8 +375,8 @@ let u82h = {
 	"hex": document.getElementById("hex-u82h")
 };
 
-u82h.u8a.addEventListener("input", u8a2hex);
-u82h.hex.addEventListener("input", hex2u8a);
+//u82h.u8a.addEventListener("input", u8a2hex);
+//u82h.hex.addEventListener("input", hex2u8a);
 
 function u8a2hex() {
 	try {
