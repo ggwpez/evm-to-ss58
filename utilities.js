@@ -331,7 +331,7 @@ function eth2Sub() {
 		substrateBytes.set(ethBytes, 0);
 
 		// Convert to a Substrate address.
-		const ss58Address = encodeAddress(substrateBytes, 42);
+		const ss58Address = encodeAddress(substrateBytes, 2);
 
 		e2s.sub.value = ss58Address;
 	} catch (e) {
